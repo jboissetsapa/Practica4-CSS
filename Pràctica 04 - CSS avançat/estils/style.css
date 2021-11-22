@@ -1,0 +1,70 @@
+body {
+    font-family: verdana;
+    background-color: rgb(255, 255, 255);
+    opacity: 0.9;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.titol {
+    font-family: Impact;
+    text-align: center;
+    font-size: 28px;
+    background-color: lightblue;
+    background-image: url("wallpaperbtf.jpg");
+    background-size: cover;
+}
+
+.menu {
+    background-color: rgb(61, 80, 100);
+    color: rgb(0, 0, 0);
+  }
+
+  .menu > ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: inline-block;
+  }
+
+  .menu li {
+    margin-right: 10px;
+    float: left;
+  }
+
+  /*A partir de aquí dropdown menu*/
+
+  .menu > ul > li > a {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+
+
+  .menu li a:hover{
+    background-color: rgb(24, 22, 107);
+  }
+
+  .drop-content {
+    display: none;
+    position: absolute;
+    background-color: #38487a;
+    min-width: 111px;
+    
+  }
+
+  .drop-content a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    padding: 12px 16px;
+    display: block;
+    text-align: left;
+  }
+
+.drop-content a:hover {background-color: #f1f1f1;}
+
+.dropdown:hover .drop-content {
+  display: block; 
+}
