@@ -1,3 +1,3 @@
 # Practica4-CSS
-Versio final de la Part 1
-Primera versió de la Part 2
+Part2 Plantilla numero 13: Solid State 
+Modificacions realitzades per Jonathan Boisset
